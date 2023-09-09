@@ -407,8 +407,8 @@ importers:
         specifier: ^0.2.9
         version: 0.2.9
       undici:
-        specifier: ~5.23.0
-        version: 5.23.0
+        specifier: ~5.24.0
+        version: 5.24.0
     devDependencies:
       '@playwright/test':
         specifier: 1.30.0
@@ -1029,8 +1029,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/kit
       '@sveltejs/site-kit':
-        specifier: 6.0.0-next.36
-        version: 6.0.0-next.36(@sveltejs/kit@packages+kit)(svelte@4.1.2)
+        specifier: 6.0.0-next.40
+        version: 6.0.0-next.40(@sveltejs/kit@packages+kit)(svelte@4.1.2)
       '@types/d3-geo':
         specifier: ^3.0.3
         version: 3.0.3
@@ -2034,8 +2034,8 @@ packages:
       typescript: 4.9.4
     dev: true
 
-  /@sveltejs/site-kit@6.0.0-next.36(@sveltejs/kit@packages+kit)(svelte@4.1.2):
-    resolution: {integrity: sha512-DZC+eqpHt76X3mCRZzaynPCFyA8J9IzZufsZMf6SOT/BU53WrbvjENzf4LKKz3Ktg7wYdo72sUuGGgO9SEEbdQ==}
+  /@sveltejs/site-kit@6.0.0-next.40(@sveltejs/kit@packages+kit)(svelte@4.1.2):
+    resolution: {integrity: sha512-PBGcfnMSUACuk564Xmam6xW3tbbI7cKKXpuo4Ymg7jIGXN1p+p+mw99ZLWOJIvjDkv2AFxKZO6FZNPrp6MCtJA==}
     peerDependencies:
       '@sveltejs/kit': ^1.20.0
       svelte: ^4.0.0
@@ -6338,8 +6338,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici@5.23.0:
-    resolution: {integrity: sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==}
+  /undici@5.24.0:
+    resolution: {integrity: sha512-OKlckxBjFl0oXxcj9FU6oB8fDAaiRUq+D8jrFWGmOfI/gIyjk/IeS75LMzgYKUaeHzLUcYvf9bbJGSrUwTfwwQ==}
     engines: {node: '>=14.0'}
     dependencies:
       busboy: 1.6.0
