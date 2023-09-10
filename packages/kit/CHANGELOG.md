@@ -1,5 +1,11 @@
 # @sveltejs/kit
 
+## 1.25.0
+
+### Minor Changes
+
+- feat: add server endpoint catch-all method handler `fallback` ([#9755](https://github.com/sveltejs/kit/pull/9755))
+
 ## 1.24.1
 
 ### Patch Changes
